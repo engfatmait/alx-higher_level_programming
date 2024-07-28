@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-//this line specifies the path to interpreter
+// This line specifies the path to interpreter.
 
 console.log(process.argv[2] + ' is ' + process.argv[3]);
 // This line accesses command-line arguments using the "process.argv" array.
