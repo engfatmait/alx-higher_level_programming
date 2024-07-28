@@ -2,5 +2,8 @@
 
 //this line specifies the path to interpreter
 
-console.log(process.argv[2] + 'is' + process.argv[3]);
-// prints two arguments passed to it, in the following format: “ is ”
+console.log(process.argv[2] + ' is ' + process.argv[3]);
+// This line accesses command-line arguments using the "process.argv" array.
+// It concatenates the value at index 2 with the string ' is ' and the value,
+// at index 3, then outputs the resulting string to the console.
+// This can be used to display a custom message using command-line arguments.
